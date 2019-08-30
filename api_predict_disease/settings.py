@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'dj_database_url',
     'PIL',
+    'requests',
     'Predict'
 ]
 
