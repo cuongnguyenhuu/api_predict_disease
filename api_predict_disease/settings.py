@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'tensorflow',
     'rest_framework',
     'dj_database_url',
-    'pillow',
+    # 'pillow',
     'Predict'
 ]
 

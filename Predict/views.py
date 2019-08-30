@@ -16,7 +16,7 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 
 
-from PIL import Image
+import Image
 import numpy
 import requests
 from io import BytesIO
