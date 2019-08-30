@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tensorflow',
     'rest_framework',
+    'dj_database_url',
+    'PIL',
     'Predict'
 ]
 
