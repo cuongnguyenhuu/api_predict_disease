@@ -15,7 +15,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 
-
+import PIL
 from PIL import Image
 import numpy
 import requests
