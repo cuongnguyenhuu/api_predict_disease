@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['api-predict-disease.herokuapp.com']
 
-
+CORS_ORIGIN_ALLOW_ALL = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -42,10 +42,12 @@ INSTALLED_APPS = [
     'dj_database_url',
     'PIL',
     'requests',
-    'Predict'
+    'Predict',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
