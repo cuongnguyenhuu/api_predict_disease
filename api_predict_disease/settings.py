@@ -25,7 +25,7 @@ SECRET_KEY = '0b%ef0yyjlixoq21s#tske40=l#$^eoynt5-yuw%^_f#5m%p!*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api-predict-disease.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_ALLOW_ALL = True
 # Application definition
