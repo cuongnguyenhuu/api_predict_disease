@@ -40,7 +40,7 @@ def load_model():
     # dense layer we created above.
 
     model = Model(inputs=mobile.input, outputs=predictions)
-    model.load_weights("./Predict/model _final.h5")
+    model.load_weights("./Predict/model.h5")
     print("AAAA")
     # global graph  
     # graph = tf.compat.v1.get_default_graph()
